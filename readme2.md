@@ -6,12 +6,14 @@ Una implementación en C de un compresor de archivos que utiliza programación p
 
 ### ✅ Funcionalidades Implementadas
 - 🗜️ **Compresión paralela** con múltiples hilos de ejecución
-- 📦 **Algoritmo zlib** con niveles de compresión configurables (0-9)
+- � **Descompresión paralela** con verificación de integridad
+- �📦 **Algoritmo zlib** con niveles de compresión configurables (0-9)
 - 🧩 **División en bloques** de tamaño configurable (1KB - 16MB)
 - ⚙️ **Configuración automática** basada en número de CPUs disponibles
 - 🛡️ **Validación de argumentos** y manejo robusto de errores
 - 📊 **Estadísticas detalladas** de compresión con progreso visual
 - 📁 **Formato .pz** con header y metadatos para verificación
+- 🗂️ **Control de versiones** con Git y .gitignore configurado
 
 ### 🎯 Arquitectura del Proyecto
 
@@ -100,6 +102,35 @@ Este proyecto fue desarrollado como trabajo final para la asignatura de Sistemas
 - Manejo de archivos y E/O
 - Compresión de datos con zlib
 - Interfaz de línea de comandos
+
+## 🗂️ Control de Versiones
+
+### Configuración de Git
+El proyecto incluye un `.gitignore` configurado para ignorar:
+
+**Archivos de compilación:**
+- Ejecutables (`parzip`, `*.exe`, `*.out`)
+- Archivos objeto (`*.o`, `*.a`, `*.so`)
+- Archivos de depuración (`*.dSYM/`, `*.pdb`)
+
+**Archivos de prueba:**
+- Archivos comprimidos generados (`*.pz`)
+- Archivos de prueba (`test_*`, `*_recovered.*`)
+- Archivos temporales (`*.tmp`, `*.log`)
+
+**Archivos de sistema y editores:**
+- Configuraciones de IDE (`.vscode/`, `.idea/`)
+- Archivos de respaldo (`*~`, `*.swp`)
+- Archivos de sistema (`.DS_Store`, `Thumbs.db`)
+
+### Comandos Git útiles
+```bash
+git init                    # Inicializar repositorio
+git add .                   # Agregar archivos (respeta .gitignore)
+git commit -m "mensaje"     # Hacer commit
+git status                  # Ver estado del repositorio
+git log --oneline          # Ver historial de commits
+```
 
 ---
 
