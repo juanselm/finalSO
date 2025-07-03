@@ -1,0 +1,177 @@
+# ==============================================
+# .gitignore para ParZip - Compresor C/pthread
+# ==============================================
+
+# Archivos ejecutables
+parzip
+*.exe
+*.out
+a.out
+
+# Archivos objeto y bibliotecas
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.lib
+*.dll
+
+# Archivos de compilación
+*.obj
+*.elf
+*.map
+*.lst
+
+# Archivos de depuración
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Archivos generados por el compilador
+*.i*86
+*.x86_64
+*.hex
+
+# Archivos de backup del editor
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+.*.swp
+.*.swo
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.sublime-*
+*.kate-swp
+.clangd/
+.ccls-cache/
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Archivos de configuración de usuario
+.gdb_history
+.gdbinit
+*.gch
+*.pch
+
+# Archivos de análisis de código
+*.gcov
+*.gcno
+*.gcda
+coverage/
+*.profdata
+*.profraw
+
+# Archivos temporales de make
+.depend
+depend
+
+# Archivos de prueba generados
+test_data.txt
+test_data.pz
+test_data_recovered.txt
+demo.txt
+demo.pz
+demo_recovered.txt
+archivo_grande.txt
+archivo_grande.pz
+archivo_grande_recovered.txt
+
+# Archivos de prueba genéricos
+*.test
+test_*
+*_test
+*_recovered.*
+*.compressed
+*.decompressed
+
+# Logs y archivos de salida
+*.log
+*.out
+*.err
+output/
+logs/
+
+# Archivos de configuración local
+config.local
+*.local
+.env
+
+# Archivos de documentación generada
+doc/html/
+doc/latex/
+*.pdf
+*.ps
+*.dvi
+
+# Archivos de empaquetado
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.rar
+*.7z
+
+# Archivos de distribución
+dist/
+build/
+release/
+
+# Archivos específicos del proyecto ParZip
+*.pz
+*.parzip
+
+# Directorios temporales
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Archivos de memoria/profiling
+massif.out.*
+cachegrind.out.*
+callgrind.out.*
+helgrind.out.*
+memcheck.out.*
+
+# Archivos de automake/autoconf (si se usan)
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.h.in
+config.log
+config.status
+configure
+install-sh
+missing
+depcomp
+
+# Archivos de CMake (si se usan)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+
+# Archivos de pkgconfig
+*.pc
+
+# Core dumps
+core
+core.*
+vgcore.*
