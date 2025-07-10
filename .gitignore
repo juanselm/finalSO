@@ -114,7 +114,6 @@ config.local
 # Archivos de documentación generada
 doc/html/
 doc/latex/
-*.pdf
 *.ps
 *.dvi
 
@@ -126,6 +125,7 @@ doc/latex/
 *.zip
 *.rar
 *.7z
+*.png
 
 # Archivos de distribución
 dist/

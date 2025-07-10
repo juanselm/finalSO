@@ -32,7 +32,7 @@ Una implementación en C de un compresor de archivos que utiliza programación p
 
 ### Compilación
 ```bash
-make                 # Compilar el proyecto
+make                # Compilar el proyecto
 make test           # Compilar y ejecutar pruebas
 make install        # Instalar en el sistema (requiere sudo)
 ```
@@ -67,7 +67,7 @@ make install        # Instalar en el sistema (requiere sudo)
 ```
 
 ### 📹 Video de Explicación
-**Link del video:** [Próximamente]
+**Link del video:** [video explicativo](https://youtu.be/OZ-4jtxXlnw)
 
 ### Algoritmo de Compresión
 1. **División**: El archivo se divide en bloques de tamaño fijo
